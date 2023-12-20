@@ -26,7 +26,7 @@ const greeting = {
     "Ingénieur développeur passionné 🚀, j'ai une expertise dans la création d'applications Web et mobiles en utilisant JavaScript, Reactjs, Nodejs, React Native, ainsi que d'autres bibliothèques et frameworks intéressants. Mes compétences s'étendent également à Python, Odoo, et DevOps."
   ),
   resumeLink:
-    "https://bgenius243.com/assets/cv_2023.pdf", // Set to empty to hide the button
+    "https://resume.bgenius243.com/assets/cv_2023.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/sbm20202020",
   linkedin: "https://www.linkedin.com/in/bienvenue-mulebo-916650117?trk=contact-info",
-  gmail: "starlymulebo2020@gmail.com",
+  gmail: "bienvenue.mulebo@bgenius243.com",
   gitlab: "https://gitlab.com/sbm20202020",
   facebook: "https://www.facebook.com/",
   medium: "https://medium.com/",
