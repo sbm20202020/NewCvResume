@@ -52,11 +52,11 @@ const skillsSection = {
   subTitle: "Développeur Full Stack passionné et intrépide, prêt à explorer chaque pile technologique.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Crée des interfaces utilisateur / Front-end hautement interactives pour vos applications web et mobiles."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Applications Web Progressives (PWA) dans des architectures normales et à page unique (SPA)."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Compétences en DevOps, CI/CD (Intégration continue / Déploiement continu), Docker, automatisation des pipelines, orchestration de conteneurs, gestion des configurations pour optimiser le développement et le déploiement des applications."
     )
   ],
 
