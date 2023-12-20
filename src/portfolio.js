@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Bienvenue",
-  title: "Salut à tous, je suis Bienvenue.",
+  username: "B. Mulebo",
+  title: "Salut à tous, je suis Bienvenue Mulebo.",
   subTitle: emoji(
     "Ingénieur développeur passionné 🚀, j'ai une expertise dans la création d'applications Web et mobiles en utilisant JavaScript, Reactjs, Nodejs, React Native, ainsi que d'autres bibliothèques et frameworks intéressants. Mes compétences s'étendent également à Python, Odoo, et DevOps."
   ),
@@ -95,10 +95,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "aws",
