@@ -56,7 +56,7 @@ const skillsSection = {
     ),
     emoji("⚡ Applications Web Progressives (PWA) dans des architectures normales et à page unique (SPA)."),
     emoji(
-      "⚡ Compétences en DevOps, CI/CD (Intégration continue / Déploiement continu), Docker, automatisation des pipelines, orchestration de conteneurs, gestion des configurations pour optimiser le développement et le déploiement des applications."
+      "⚡ Compétences en DevSecOps, CI/CD (Intégration continue / Déploiement continu), Docker, automatisation des pipelines, orchestration de conteneurs, gestion des configurations pour optimiser le développement et le déploiement des applications."
     )
   ],
 
@@ -135,15 +135,19 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "DevSecOps",
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -155,29 +159,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Ingénieur Logiciel",
+      company: "Quantum Vertex",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "Juin 2022 – À présent",
+      desc: "En tant qu'ingénieur logiciel chez Quantum-vertex, mon travail consiste à développer les applications backend en Python et Odoo, mon rôle consiste à concevoir, créer et optimiser les fonctionnalités non visibles des applications. Je suis responsable du développement et du déploiement des applications, assurant ainsi leur bon fonctionnement et leur performance.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Python - Odoo - Flask - React - Django",
+        "Docker - Dockerswarm - Kubernetes - Nginx"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Odoo Developer",
+      company: "Avenir Business",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Octobre 2020 – Mai 2022",
+      desc: "En tant que développeur Odoo, j'étais responsable de la conception, du développement, de la personnalisation de solutions ERP basées sur la plateforme Odoo et du déploiement."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Développeur web",
+      company: "Ciga Sarl",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Janv 2020 – Aout 2020",
+      desc: "En tant que développeurs web j'avais comme responsabilité de développer des applications web fullstack avec Django et Laravel."
     }
   ]
 };
