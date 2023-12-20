@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Bienvenue Mulebo",
-  title: "Hi all, I'm Bienvenue",
+  username: "Bienvenue",
+  title: "Salut à tous, je suis Bienvenue.",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Ingénieur développeur passionné 🚀, j'ai une expertise dans la création d'applications Web et mobiles en utilisant JavaScript, Reactjs, Nodejs, React Native, ainsi que d'autres bibliothèques et frameworks intéressants. Mes compétences s'étendent également à Python, Odoo, et DevOps."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://bgenius243.com/assets/cv_2023.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/sbm20202020",
+  linkedin: "https://www.linkedin.com/in/bienvenue-mulebo-916650117?trk=contact-info",
+  gmail: "starlymulebo2020@gmail.com",
+  gitlab: "https://gitlab.com/sbm20202020",
+  facebook: "https://www.facebook.com/",
+  medium: "https://medium.com/",
+  stackoverflow: "https://stackoverflow.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,8 +48,8 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Ce que je fais",
+  subTitle: "Développeur Full Stack passionné et intrépide, prêt à explorer chaque pile technologique.",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
