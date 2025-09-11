@@ -20,91 +20,133 @@ const illustration = {
 };
 
 const greeting = {
-  username: "B. Mulebo",
-  title: "Salut à tous, je suis Bienvenue Mulebo.",
+  username: "Bienvenue MULEBO",
+  title: "Ingénieur Logiciel & DevOps | Expert Odoo",
   subTitle: emoji(
-    "Ingénieur développeur passionné 🚀, j'ai une expertise dans la création d'applications Web et mobiles en utilisant JavaScript, Reactjs, Nodejs, React Native, ainsi que d'autres bibliothèques et frameworks intéressants. Mes compétences s'étendent également à Python, Odoo, et DevOps."
+    "20bis, Avenue Mobutu, Masina, Kinshasa • +243 816468966 • bienvenue.mulebo@gmail.com"
   ),
-  resumeLink:
-    "https://resume.bgenius243.com/assets/cv_2023.pdf", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  resumeLink: "https://www.linkedin.com/in/bienvenue-mulebo-916650117",
+  displayGreeting: true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
   github: "https://github.com/sbm20202020",
-  linkedin: "https://www.linkedin.com/in/bienvenue-mulebo-916650117?trk=contact-info",
-  gmail: "bienvenue.mulebo@bgenius243.com",
+  linkedin: "https://www.linkedin.com/in/bienvenue-mulebo-916650117",
+  gmail: "bienvenue.mulebo@gmail.com",
   gitlab: "https://gitlab.com/sbm20202020",
-  facebook: "https://www.facebook.com/",
-  medium: "https://medium.com/",
-  stackoverflow: "https://stackoverflow.com",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: true
 };
 
 // Skills Section
 
 const skillsSection = {
-  title: "Ce que je fais",
-  subTitle: "Développeur Full Stack passionné et intrépide, prêt à explorer chaque pile technologique.",
+  title: "Expertise Technique",
+  subTitle: "Compétences clés acquises au fil de 5+ années d'expérience en développement et opérations",
   skills: [
-    emoji(
-      "⚡ Crée des interfaces utilisateur / Front-end hautement interactives pour vos applications web et mobiles."
-    ),
-    emoji("⚡ Applications Web Progressives (PWA) dans des architectures normales et à page unique (SPA)."),
-    emoji(
-      "⚡ Compétences en DevSecOps, CI/CD (Intégration continue / Déploiement continu), Docker, automatisation des pipelines, orchestration de conteneurs, gestion des configurations pour optimiser le développement et le déploiement des applications."
-    )
+    emoji("🚀 Développement Backend: Architecture logicielle, API REST, Microservices, Optimisation des performances"),
+    emoji("🔧 DevOps & CI/CD: Automatisation des déploiements, Infrastructure as Code, Monitoring et logging"),
+    emoji("☁️ Cloud & Infrastructure: Architecture Cloud Native, Conteneurisation, Hébergement et scaling"),
+    emoji("🔒 Sécurité: Bonnes pratiques de sécurité, Authentification, Chiffrement, Conformité")
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-  {
-    skillName: "html-5",
-    fontAwesomeClassname: "fab fa-html5"
-  },
-  {
-    skillName: "css3",
-    fontAwesomeClassname: "fab fa-css3-alt"
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
-  },
-  {
-    skillName: "reactjs",
-    fontAwesomeClassname: "fab fa-react"
-  },
-  {
-    skillName: "nodejs",
-    fontAwesomeClassname: "fab fa-node"
-  },
-  {
-    skillName: "npm",
-    fontAwesomeClassname: "fab fa-npm"
-  },
-  {
-    skillName: "python",
-    fontAwesomeClassname: "fab fa-python"
-  },
-  {
-    skillName: "docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "kubernetes",
-    fontAwesomeClassname: "fab fa-kubernetes"
-  },
-  {
-    skillName: "docker-swarm",
-    fontAwesomeClassname: "fab fa-docker"
-  }
-],
+    // Langages de programmation
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "HTML5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    
+    // Frameworks & Outils
+    {
+      skillName: "Odoo",
+      fontAwesomeClassname: "fas fa-cubes"
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "Next.js",
+      fontAwesomeClassname: "fas fa-play",
+      style: { transform: 'rotate(-90deg)' } // Rotation du triangle pour pointer vers la droite
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node-js"
+    },
+    
+    // DevOps & Cloud
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    // {
+    //   skillName: "Kubernetes",
+    //   fontAwesomeClassname: "fab fa-kubernetes"
+    // },
+    {
+      skillName: "Docker Swarm",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Google Cloud",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
+      skillName: "Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "GitLab",
+      fontAwesomeClassname: "fab fa-gitlab"
+    },
+    {
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    
+    // Base de données
+    {
+      skillName: "PostgreSQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    
+    // Autres outils
+    {
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "Nginx",
+      fontAwesomeClassname: "fas fa-server"
+    }
+  ],
 
   display: true // Set false to hide this section, defaults to true
 };
@@ -112,17 +154,17 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
       schoolName: "Université de Kinshasa",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Licence en Informatique",
-      duration: "Novembre 2013 - Septembre 2018",
-      desc: "Bac+5 en Mathématiques et Informatique Groupe: Informatique Option: Génie Informatique.",
+      subHeader: "Licence (BAC + 5), en Sciences & Technologies - Génie Informatique",
+      duration: "2013 - 2018",
+      desc: "Formation complète en génie informatique avec spécialisation en développement logiciel et systèmes d'information.",
       descBullets: [
-        "Mise en place d'un protocole VPN-GRE/IPSEC supervisé pour l'interconnexion de sites distants << cas de MICROCRED RDC SA >>",
-        "Application de gestion d'inscription en ligne - Cas de Unikin"
+        "Mémoire: Mise en place d'un protocole VPN-GRE/IPSEC pour l'interconnexion de sites distants",
+        "Projet: Application de gestion d'inscription en ligne"
       ]
     }
   ]
@@ -131,23 +173,31 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "60%" //Insert relative proficiency in percentage
+      Stack: "Développement Backend",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
+      Stack: "Architecture Logicielle",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "DevOps & CI/CD",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Sécurité Informatique",
       progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Cloud & Infrastructure",
+      progressPercentage: "85%"
     },
     {
-      Stack: "DevSecOps",
-      progressPercentage: "75%"
+      Stack: "Développement Frontend",
+      progressPercentage: "65%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -156,32 +206,53 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Ingénieur Logiciel",
-      company: "Quantum Vertex",
+      role: "Ingénieur Logiciel & DevOps",
+      company: "Quantum Vertex SAS",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "Juin 2022 – À présent",
-      desc: "En tant qu'ingénieur logiciel chez Quantum-vertex, mon travail consiste à développer les applications backend en Python et Odoo, mon rôle consiste à concevoir, créer et optimiser les fonctionnalités non visibles des applications. Je suis responsable du développement et du déploiement des applications, assurant ainsi leur bon fonctionnement et leur performance.",
+      date: "Juin 2022 – Présent",
+      location: "Kinshasa, RDC (Télétravail)",
+      desc: "En tant qu'ingénieur polyvalent, j'assure la conception, le développement et le déploiement de solutions logicielles évolutives pour divers secteurs d'activité.",
       descBullets: [
-        "Python - Odoo - Flask - React - Django",
-        "Docker - Dockerswarm - Kubernetes - Nginx"
-      ]
+        "Architecture et développement d'applications métier avec Odoo (v14-v17) et Python/Django",
+        "Mise en place et optimisation d'infrastructures cloud (GCP, Azure) avec une approche Infrastructure as Code",
+        "Automatisation des processus CI/CD avec GitLab CI et GitHub Actions",
+        "Sécurisation des applications et conformité aux bonnes pratiques de sécurité",
+        "Encadrement technique d'une équipe de développeurs et revue de code"
+      ],
+      technologies: "Python, Odoo, Django, PostgreSQL, Docker, GCP, Azure, Terraform, GitLab CI, GitHub Actions"
     },
     {
-      role: "Odoo Developer",
-      company: "Avenir Business",
+      role: "Développeur Odoo Senior",
+      company: "LandP",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "Octobre 2020 – Mai 2022",
-      desc: "En tant que développeur Odoo, j'étais responsable de la conception, du développement, de la personnalisation de solutions ERP basées sur la plateforme Odoo et du déploiement."
+      location: "Kinshasa, RDC",
+      desc: "Développement de solutions ERP sur mesure avec Odoo pour divers secteurs (santé, éducation, services).",
+      descBullets: [
+        "Conception et développement de modules Odoo personnalisés",
+        "Intégration de systèmes tiers via des API REST/GraphQL",
+        "Optimisation des performances des bases de données PostgreSQL",
+        "Formation des utilisateurs et rédaction de documentation technique"
+      ],
+      technologies: "Python, Odoo, PostgreSQL, JavaScript, XML, Linux, Nginx, Let's Encrypt"
     },
     {
-      role: "Développeur web",
-      company: "Ciga Sarl",
+      role: "Développeur Full Stack",
+      company: "CIGA SARL",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Janv 2020 – Aout 2020",
-      desc: "En tant que développeurs web j'avais comme responsabilité de développer des applications web fullstack avec Django et Laravel."
+      date: "Janvier 2020 – Septembre 2020",
+      location: "Kinshasa, RDC",
+      desc: "Développement d'applications web sur mesure avec Laravel et ReactJS.",
+      descBullets: [
+        "Conception et développement d'API RESTful",
+        "Création d'interfaces utilisateur réactives avec ReactJS",
+        "Modélisation de bases de données relationnelles",
+        "Mise en production et maintenance des applications"
+      ],
+      technologies: "PHP, Laravel, MySQL, JavaScript, ReactJS, HTML5, CSS3, Git"
     }
   ]
 };
@@ -231,82 +302,95 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Certifications & Formations 🏆"),
+  subtitle: "Mes certifications professionnelles et formations complémentaires",
+  display: true,
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      title: "Certified Information Systems Security Professional (CISSP)",
+      subtitle: "Spécialisation en sécurité des systèmes d'information",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "CISSP Certification",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Voir la certification",
+          url: "https://www.coursera.org/account/accomplishments/specialization/certificate/AEC6EB5193P4"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Microsoft Azure - Administration",
+      subtitle: "Création et déploiement de machines virtuelles",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Azure Certification",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Voir la certification",
+          url: "https://www.coursera.org/account/accomplishments/records/JVDJSJJF10AQ"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Google IT Support Professional",
+      subtitle: "Certification en support informatique et administration système",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Google IT Support",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Voir la certification",
+          url: "https://www.coursera.org/account/accomplishments/professional-cert/A8JX75X9RK4J"
+        }
+      ]
+    },
+    {
+      title: "Python 3 Programming Specialization",
+      subtitle: "Spécialisation en programmation Python avancée",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Python Certification",
+      footerLink: [
+        {
+          name: "Voir les certifications",
+          url: "https://coursera.org/verify/NJS52ZX2HKF9"
+        }
+      ]
+    },
+    {
+      title: "Odoo Technique",
+      subtitle: "Installation et Configuration d'Odoo",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "Odoo Certification",
+      footerLink: [
+        {
+          name: "Voir l'attestation",
+          url: "https://www.alphorm.com/Attestation/ANnnKxqWyJRop"
         }
       ]
     }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  ]
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  title: "Articles & Publications",
+  subtitle: "Partage de connaissances et réflexions sur le développement logiciel et DevOps",
+  displayMediumBlogs: "false", // Désactivé pour utiliser les blogs codés en dur
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "#",
+      title: "Optimisation des performances Odoo en production",
+      description: "Guide pratique pour améliorer les performances des déploiements Odoo en environnement de production."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "#",
+      title: "Intégration continue avec GitLab CI pour applications Python",
+      description: "Mise en place d'un pipeline CI/CD efficace pour des applications Python avec GitLab CI."
+    },
+    {
+      url: "#",
+      title: "Sécurisation des APIs avec OAuth2 et JWT",
+      description: "Bonnes pratiques pour sécuriser vos APIs avec des jetons d'accès et des stratégies d'authentification robustes."
     }
   ],
   display: true // Set false to hide this section, defaults to true
