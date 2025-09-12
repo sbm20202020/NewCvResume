@@ -20,12 +20,12 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Bienvenue MULEBO",
+  username: "Bienvenue",
   title: "Ingénieur Logiciel & DevOps | Expert Odoo",
   subTitle: emoji(
     "20bis, Avenue Mobutu, Masina, Kinshasa • +243 816468966 • bienvenue.mulebo@gmail.com"
   ),
-  resumeLink: "https://www.linkedin.com/in/bienvenue-mulebo-916650117",
+  resumeLink: "https://docs.google.com/document/d/1iMJM-r-GG8BsRQO-QEpWp-bSAPF81PljLIKCL_jeMPc/edit?usp=sharing",
   displayGreeting: true
 };
 
@@ -45,9 +45,9 @@ const skillsSection = {
   title: "Expertise Technique",
   subTitle: "Compétences clés acquises au fil de 5+ années d'expérience en développement et opérations",
   skills: [
-    emoji("🚀 Développement Backend: Architecture logicielle, API REST, Microservices, Optimisation des performances"),
-    emoji("🔧 DevOps & CI/CD: Automatisation des déploiements, Infrastructure as Code, Monitoring et logging"),
-    emoji("☁️ Cloud & Infrastructure: Architecture Cloud Native, Conteneurisation, Hébergement et scaling"),
+    emoji("🚀 Développement Backend: Architecture logicielle (Monolithique & Microservices), API REST/GraphQL, Optimisation des performances, Tests unitaires et d'intégration"),
+    emoji("🔧 DevOps & CI/CD: Automatisation des déploiements (GitLab CI/CD, GitHub Actions), Infrastructure as Code (Terraform, Ansible), Monitoring (Prometheus, Grafana), Conteneurisation (Docker, Kubernetes)"),
+    emoji("☁️ Cloud & Infrastructure: Architecture Cloud Native (GCP, Azure), Sécurité Cloud, Mise à l'échelle et haute disponibilité, Réseaux"),
     emoji("🔒 Sécurité: Bonnes pratiques de sécurité, Authentification, Chiffrement, Conformité")
   ],
 
@@ -181,11 +181,11 @@ const techStack = {
     },
     {
       Stack: "Architecture Logicielle",
-      progressPercentage: "85%"
+      progressPercentage: "75%"
     },
     {
       Stack: "DevOps & CI/CD",
-      progressPercentage: "85%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Sécurité Informatique",
@@ -193,11 +193,11 @@ const techStack = {
     },
     {
       Stack: "Cloud & Infrastructure",
-      progressPercentage: "85%"
+      progressPercentage: "65%"
     },
     {
       Stack: "Développement Frontend",
-      progressPercentage: "65%"
+      progressPercentage: "55%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -211,7 +211,7 @@ const workExperiences = {
     {
       role: "Ingénieur Logiciel & DevOps",
       company: "Quantum Vertex SAS",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/qv.png"),
       date: "Juin 2022 – Présent",
       location: "Kinshasa, RDC (Télétravail)",
       desc: "En tant qu'ingénieur polyvalent, j'assure la conception, le développement et le déploiement de solutions logicielles évolutives pour divers secteurs d'activité.",
@@ -227,7 +227,7 @@ const workExperiences = {
     {
       role: "Développeur Odoo Senior",
       company: "LandP",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/landp.jpeg"),
       date: "Octobre 2020 – Mai 2022",
       location: "Kinshasa, RDC",
       desc: "Développement de solutions ERP sur mesure avec Odoo pour divers secteurs (santé, éducation, services).",
@@ -242,7 +242,7 @@ const workExperiences = {
     {
       role: "Développeur Full Stack",
       company: "CIGA SARL",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/ciga.jpeg"),
       date: "Janvier 2020 – Septembre 2020",
       location: "Kinshasa, RDC",
       desc: "Développement d'applications web sur mesure avec Laravel et ReactJS.",
@@ -268,32 +268,54 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projets",
+  subtitle: "Startups et entreprises pour lesquelles j'ai contribué à la création technique",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/insse.png"),
+      projectName: "SGI - Système de Gestion Informatique",
+      projectDesc: "Système de gestion informatique pour les entreprises et institutions.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visiter le site web",
+          url: "https://sgi.insse.ca/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/continumm.png"),
+      projectName: "Continuum PME",
+      projectDesc: "Portail web pour les PME.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visiter le site web",
+          url: "https://pme.cd/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/pay.jpg"),
+      projectName: "FPay",
+      projectDesc: "Plateforme de paiement en ligne.",
+      footerLink: [
+        {
+          name: "Visiter le site web",
+          url: "https://pay.erp.cd/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/erpcd.png"),
+      projectName: "Erp CD",
+      projectDesc: "Application ERP pour la gestion des entreprises.",
+      footerLink: [
+        {
+          name: "Visiter le site web",
+          url: "https://erp.cd/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -310,7 +332,7 @@ const achievementSection = {
     {
       title: "Certified Information Systems Security Professional (CISSP)",
       subtitle: "Spécialisation en sécurité des systèmes d'information",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/cissp.jpeg"),
       imageAlt: "CISSP Certification",
       footerLink: [
         {
@@ -322,7 +344,7 @@ const achievementSection = {
     {
       title: "Microsoft Azure - Administration",
       subtitle: "Création et déploiement de machines virtuelles",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/azurecert.png"),
       imageAlt: "Azure Certification",
       footerLink: [
         {
@@ -334,7 +356,7 @@ const achievementSection = {
     {
       title: "Google IT Support Professional",
       subtitle: "Certification en support informatique et administration système",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/itsup.png"),
       imageAlt: "Google IT Support",
       footerLink: [
         {
@@ -346,7 +368,7 @@ const achievementSection = {
     {
       title: "Python 3 Programming Specialization",
       subtitle: "Spécialisation en programmation Python avancée",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/python.png"),
       imageAlt: "Python Certification",
       footerLink: [
         {
@@ -358,8 +380,8 @@ const achievementSection = {
     {
       title: "Odoo Technique",
       subtitle: "Installation et Configuration d'Odoo",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Odoo Certification",
+      image: require("./assets/images/odoo.png"),
+      imageAlt: "Logo Odoo",
       footerLink: [
         {
           name: "Voir l'attestation",
@@ -378,19 +400,19 @@ const blogSection = {
   displayMediumBlogs: "false", // Désactivé pour utiliser les blogs codés en dur
   blogs: [
     {
-      url: "#",
-      title: "Optimisation des performances Odoo en production",
-      description: "Guide pratique pour améliorer les performances des déploiements Odoo en environnement de production."
+      url: "https://www.linkedin.com/posts/bienvenue-mulebo-916650117_data-security-hybrid-algorithm-by-bienvenue-activity-7366379010450280448-IXhD/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0bEiIBo381VYFEG2RNS2DSnS4DS27tzh0",
+      title: "Comment protéger efficacement vos échanges de données sensibles ?",
+      description: "Chiffrement des données sensibles avec un algorithme hybride AES-256 et RSA-2048"
     },
     {
-      url: "#",
-      title: "Intégration continue avec GitLab CI pour applications Python",
-      description: "Mise en place d'un pipeline CI/CD efficace pour des applications Python avec GitLab CI."
+      url: "https://www.linkedin.com/pulse/les-avantages-de-lutilisation-docker-dans-le-et-bienvenue-mulebo-962gf/?trackingId=E0hpVOSm7Ze4CuQUi3os1Q%3D%3D",
+      title: "Les Avantages de l'Utilisation de Docker dans le Développement et le Déploiement d'Applications",
+      description: "Docker permet de créer des conteneurs standardisés et portables, ce qui facilite le déploiement et la gestion des applications."
     },
     {
-      url: "#",
-      title: "Sécurisation des APIs avec OAuth2 et JWT",
-      description: "Bonnes pratiques pour sécuriser vos APIs avec des jetons d'accès et des stratégies d'authentification robustes."
+      url: "https://www.linkedin.com/posts/bienvenue-mulebo-916650117_kafka-datastreaming-architecturedistribuaeze-activity-7352305064343994369-cO5L?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0bEiIBo381VYFEG2RNS2DSnS4DS27tzh0",
+      title: "Kafka au cœur des architectures modernes de données distribuées",
+      description: "Architecture Orientée Evenement (Event-Driven Architecture) avec Kafka"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -399,27 +421,27 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Conférences",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Je partage mes connaissances et mes réflexions sur le développement logiciel et DevOps"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      title: "Optimisation des performances Odoo en production",
+      subtitle: "Stratégies avancées et bonnes pratiques pour maximiser les performances d'Odoo en environnement de production",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "Je partage mes connaissances et mes réflexions sur le développement logiciel et DevOps",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -429,11 +451,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contactez-moi ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Un projet à discuter ou simplement envie de dire bonjour ? Ma boîte mail vous est ouverte.",
+  number: "+243 816468966",
+  email_address: "bienvenue.mulebo@gmail.com"
 };
 
 // Twitter Section
