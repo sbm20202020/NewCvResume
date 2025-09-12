@@ -23,7 +23,7 @@ const greeting = {
   username: "Bienvenue",
   title: "Ingénieur Logiciel & DevOps | Expert Odoo",
   subTitle: emoji(
-    "20bis, Avenue Mobutu, Masina, Kinshasa • +243 816468966 • bienvenue.mulebo@gmail.com"
+    "20bis, Avenue Mobutu, Masina, Kinshasa • +243 816468966 • infos@bienvenue-mulebo.xyz"
   ),
   resumeLink: "https://docs.google.com/document/d/1iMJM-r-GG8BsRQO-QEpWp-bSAPF81PljLIKCL_jeMPc/edit?usp=sharing",
   displayGreeting: true
@@ -34,7 +34,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/sbm20202020",
   linkedin: "https://www.linkedin.com/in/bienvenue-mulebo-916650117",
-  gmail: "bienvenue.mulebo@gmail.com",
+  gmail: "infos@bienvenue-mulebo.xyz",
   gitlab: "https://gitlab.com/sbm20202020",
   display: true
 };
@@ -455,7 +455,7 @@ const contactInfo = {
   subtitle:
     "Un projet à discuter ou simplement envie de dire bonjour ? Ma boîte mail vous est ouverte.",
   number: "+243 816468966",
-  email_address: "bienvenue.mulebo@gmail.com"
+  email_address: "infos@bienvenue-mulebo.xyz"
 };
 
 // Twitter Section
