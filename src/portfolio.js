@@ -23,7 +23,7 @@ const greeting = {
   username: "Bienvenue",
   title: "Ingénieur Logiciel & DevOps | Expert Odoo",
   subTitle: emoji(
-    "20bis, Avenue Mobutu, Masina, Kinshasa • +243 816468966 • infos@bienvenue-mulebo.xyz"
+    "Passionné par la conception d'architectures évolutives, l'automatisation des déploiements et l'optimisation des performances. Expertise en développement backend, conteneurisation (Docker, Kubernetes) et sécurisation des infrastructures cloud."
   ),
   resumeLink: "https://docs.google.com/document/d/1iMJM-r-GG8BsRQO-QEpWp-bSAPF81PljLIKCL_jeMPc/edit?usp=sharing",
   displayGreeting: true
