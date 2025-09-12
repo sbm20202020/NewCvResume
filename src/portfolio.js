@@ -332,7 +332,7 @@ const achievementSection = {
     {
       title: "Certified Information Systems Security Professional (CISSP)",
       subtitle: "Spécialisation en sécurité des systèmes d'information",
-      image: require("./assets/images/cissp.jpeg"),
+      image: require("./assets/images/cissp.png"),
       imageAlt: "CISSP Certification",
       footerLink: [
         {
