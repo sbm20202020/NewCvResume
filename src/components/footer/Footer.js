@@ -19,7 +19,9 @@ export default function Footer() {
           </a>
         </p> */}
 
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>© {new Date().getFullYear()} Bienvenue Mulebo. Tous droits réservés.</p>
+        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+          © {new Date().getFullYear()} Bienvenue Mulebo. Tous droits réservés.
+        </p>
       </div>
     </Fade>
   );

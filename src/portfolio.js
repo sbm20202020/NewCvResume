@@ -25,7 +25,8 @@ const greeting = {
   subTitle: emoji(
     "Passionné par la conception d'architectures évolutives, l'automatisation des déploiements et l'optimisation des performances. Expertise en développement backend, conteneurisation (Docker, Kubernetes) et sécurisation des infrastructures cloud."
   ),
-  resumeLink: "https://docs.google.com/document/d/1iMJM-r-GG8BsRQO-QEpWp-bSAPF81PljLIKCL_jeMPc/edit?usp=sharing",
+  resumeLink:
+    "https://docs.google.com/document/d/1iMJM-r-GG8BsRQO-QEpWp-bSAPF81PljLIKCL_jeMPc/edit?usp=sharing",
   displayGreeting: true
 };
 
@@ -43,12 +44,21 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Expertise Technique",
-  subTitle: "Compétences clés acquises au fil de 5+ années d'expérience en développement et opérations",
+  subTitle:
+    "Compétences clés acquises au fil de 5+ années d'expérience en développement et opérations",
   skills: [
-    emoji("🚀 Développement Backend: Architecture logicielle (Monolithique & Microservices), API REST/GraphQL, Optimisation des performances, Tests unitaires et d'intégration"),
-    emoji("🔧 DevOps & CI/CD: Automatisation des déploiements (GitLab CI/CD, GitHub Actions), Infrastructure as Code (Terraform, Ansible), Monitoring (Prometheus, Grafana), Conteneurisation (Docker, Kubernetes)"),
-    emoji("☁️ Cloud & Infrastructure: Architecture Cloud Native (GCP, Azure), Sécurité Cloud, Mise à l'échelle et haute disponibilité, Réseaux"),
-    emoji("🔒 Sécurité: Bonnes pratiques de sécurité, Authentification, Chiffrement, Conformité")
+    emoji(
+      "🚀 Développement Backend: Architecture logicielle (Monolithique & Microservices), API REST/GraphQL, Optimisation des performances, Tests unitaires et d'intégration"
+    ),
+    emoji(
+      "🔧 DevOps & CI/CD: Automatisation des déploiements (GitLab CI/CD, GitHub Actions), Infrastructure as Code (Terraform, Ansible), Monitoring (Prometheus, Grafana), Conteneurisation (Docker, Kubernetes)"
+    ),
+    emoji(
+      "☁️ Cloud & Infrastructure: Architecture Cloud Native (GCP, Azure), Sécurité Cloud, Mise à l'échelle et haute disponibilité, Réseaux"
+    ),
+    emoji(
+      "🔒 Sécurité: Bonnes pratiques de sécurité, Authentification, Chiffrement, Conformité"
+    )
   ],
 
   softwareSkills: [
@@ -73,7 +83,7 @@ const skillsSection = {
       skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    
+
     // Frameworks & Outils
     {
       skillName: "Odoo",
@@ -86,13 +96,13 @@ const skillsSection = {
     {
       skillName: "Next.js",
       fontAwesomeClassname: "fas fa-play",
-      style: { transform: 'rotate(-90deg)' } // Rotation du triangle pour pointer vers la droite
+      style: {transform: "rotate(-90deg)"} // Rotation du triangle pour pointer vers la droite
     },
     {
       skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node-js"
     },
-    
+
     // DevOps & Cloud
     {
       skillName: "Docker",
@@ -126,7 +136,7 @@ const skillsSection = {
       skillName: "GitHub",
       fontAwesomeClassname: "fab fa-github"
     },
-    
+
     // Base de données
     {
       skillName: "PostgreSQL",
@@ -136,7 +146,7 @@ const skillsSection = {
       skillName: "MySQL",
       fontAwesomeClassname: "fas fa-database"
     },
-    
+
     // Autres outils
     {
       skillName: "Linux",
@@ -159,7 +169,8 @@ const educationInfo = {
     {
       schoolName: "Université de Kinshasa",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Licence (BAC + 5), en Sciences & Technologies - Génie Informatique",
+      subHeader:
+        "Licence (BAC + 5), en Sciences & Technologies - Génie Informatique",
       duration: "2013 - 2018",
       desc: "Formation complète en génie informatique avec spécialisation en développement logiciel et systèmes d'information.",
       descBullets: [
@@ -222,7 +233,8 @@ const workExperiences = {
         "Sécurisation des applications et conformité aux bonnes pratiques de sécurité",
         "Encadrement technique d'une équipe de développeurs et revue de code"
       ],
-      technologies: "Python, Odoo, Django, PostgreSQL, Docker, GCP, Azure, Terraform, GitLab CI, GitHub Actions"
+      technologies:
+        "Python, Odoo, Django, PostgreSQL, Docker, GCP, Azure, Terraform, GitLab CI, GitHub Actions"
     },
     {
       role: "Développeur Odoo Senior",
@@ -237,7 +249,8 @@ const workExperiences = {
         "Optimisation des performances des bases de données PostgreSQL",
         "Formation des utilisateurs et rédaction de documentation technique"
       ],
-      technologies: "Python, Odoo, PostgreSQL, JavaScript, XML, Linux, Nginx, Let's Encrypt"
+      technologies:
+        "Python, Odoo, PostgreSQL, JavaScript, XML, Linux, Nginx, Let's Encrypt"
     },
     {
       role: "Développeur Full Stack",
@@ -269,12 +282,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Projets",
-  subtitle: "Startups et entreprises pour lesquelles j'ai contribué à la création technique",
+  subtitle:
+    "Startups et entreprises pour lesquelles j'ai contribué à la création technique",
   projects: [
     {
       image: require("./assets/images/insse.png"),
       projectName: "SGI - Système de Gestion Informatique",
-      projectDesc: "Système de gestion informatique pour les entreprises et institutions.",
+      projectDesc:
+        "Système de gestion informatique pour les entreprises et institutions.",
       footerLink: [
         {
           name: "Visiter le site web",
@@ -315,7 +330,7 @@ const bigProjects = {
           url: "https://erp.cd/"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -355,7 +370,8 @@ const achievementSection = {
     },
     {
       title: "Google IT Support Professional",
-      subtitle: "Certification en support informatique et administration système",
+      subtitle:
+        "Certification en support informatique et administration système",
       image: require("./assets/images/itsup.png"),
       imageAlt: "Google IT Support",
       footerLink: [
@@ -396,23 +412,29 @@ const achievementSection = {
 
 const blogSection = {
   title: "Articles & Publications",
-  subtitle: "Partage de connaissances et réflexions sur le développement logiciel et DevOps",
+  subtitle:
+    "Partage de connaissances et réflexions sur le développement logiciel et DevOps",
   displayMediumBlogs: "false", // Désactivé pour utiliser les blogs codés en dur
   blogs: [
     {
       url: "https://www.linkedin.com/posts/bienvenue-mulebo-916650117_data-security-hybrid-algorithm-by-bienvenue-activity-7366379010450280448-IXhD/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0bEiIBo381VYFEG2RNS2DSnS4DS27tzh0",
-      title: "Comment protéger efficacement vos échanges de données sensibles ?",
-      description: "Chiffrement des données sensibles avec un algorithme hybride AES-256 et RSA-2048"
+      title:
+        "Comment protéger efficacement vos échanges de données sensibles ?",
+      description:
+        "Chiffrement des données sensibles avec un algorithme hybride AES-256 et RSA-2048"
     },
     {
       url: "https://www.linkedin.com/pulse/les-avantages-de-lutilisation-docker-dans-le-et-bienvenue-mulebo-962gf/?trackingId=E0hpVOSm7Ze4CuQUi3os1Q%3D%3D",
-      title: "Les Avantages de l'Utilisation de Docker dans le Développement et le Déploiement d'Applications",
-      description: "Docker permet de créer des conteneurs standardisés et portables, ce qui facilite le déploiement et la gestion des applications."
+      title:
+        "Les Avantages de l'Utilisation de Docker dans le Développement et le Déploiement d'Applications",
+      description:
+        "Docker permet de créer des conteneurs standardisés et portables, ce qui facilite le déploiement et la gestion des applications."
     },
     {
       url: "https://www.linkedin.com/posts/bienvenue-mulebo-916650117_kafka-datastreaming-architecturedistribuaeze-activity-7352305064343994369-cO5L?utm_source=share&utm_medium=member_desktop&rcm=ACoAAB0bEiIBo381VYFEG2RNS2DSnS4DS27tzh0",
       title: "Kafka au cœur des architectures modernes de données distribuées",
-      description: "Architecture Orientée Evenement (Event-Driven Architecture) avec Kafka"
+      description:
+        "Architecture Orientée Evenement (Event-Driven Architecture) avec Kafka"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -429,7 +451,8 @@ const talkSection = {
   talks: [
     {
       title: "Optimisation des performances Odoo en production",
-      subtitle: "Stratégies avancées et bonnes pratiques pour maximiser les performances d'Odoo en environnement de production",
+      subtitle:
+        "Stratégies avancées et bonnes pratiques pour maximiser les performances d'Odoo en environnement de production",
       slides_url: "https://bit.ly/saadpasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
@@ -441,7 +464,8 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "Je partage mes connaissances et mes réflexions sur le développement logiciel et DevOps",
+  subtitle:
+    "Je partage mes connaissances et mes réflexions sur le développement logiciel et DevOps",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
@@ -486,4 +510,3 @@ export {
   twitterDetails,
   isHireable
 };
-      
