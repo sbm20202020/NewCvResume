@@ -18,7 +18,8 @@ jobs:
       matrix:
         node-version: [22.20.0]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
+    env:
+      NPM_CONFIG_CACHE: ${{ github.workspace }}/.npm-cache
     steps:
     - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version }}
