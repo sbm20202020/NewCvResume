@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Bienvenue",
-  title: "Ingénieur Logiciel & DevOps | Expert Odoo !",
+  title: "Ingénieur Logiciel & DevOps | Expert Odoo",
   subTitle: emoji(
     "Passionné par la conception d'architectures évolutives, l'automatisation des déploiements et l'optimisation des performances. Expertise en développement backend, conteneurisation (Docker, Kubernetes) et sécurisation des infrastructures cloud."
   ),
